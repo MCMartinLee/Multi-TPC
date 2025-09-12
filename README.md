@@ -11,3 +11,8 @@ pip install -r requirements.txt
 1. Download the dataset and put inside the Data folder
 2. Run Jupyter Notebook of example
 * [Analysis](https://github.com/MCMartinLee/Multi-TPC/master/Analysis.ipynb)
+
+# Visualization
+```
+git clone https://github.com/MCMartinLee/Conversation_Demo
+```
