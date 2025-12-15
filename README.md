@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ---
 
 ## Data Capture
-
+![Layout](Figures/layout.png)
 ### Synchronization
 All modalities are synchronized using a physical clapboard instrumented with motion-capture markers.  
 The clap event provides a shared temporal reference across motion, gaze, and audio streams.
