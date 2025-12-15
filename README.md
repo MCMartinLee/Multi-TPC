@@ -72,7 +72,7 @@ We compute discrete gaze targets to determine whether each participant is lookin
 - the right listener, or
 - neither listener.
 
-This is performed using **[GazeBehavior](processing/GazeBehavior.exe)**, which integrates gaze and motion-capture data.
+This is performed using **[Visualization repo](https://github.com/MCMartinLee/Conversation_Demo/blob/master/Data/main.cpp)**, which integrates gaze and motion-capture data.
 
 **Input**
 - Capture date (e.g., `12-15-2021`)
