@@ -30,22 +30,18 @@ Motion data are processed using **ViconIQ**, including:
 - Gap interpolation  
 - Temporal smoothing  
 
-A step-by-step demonstration is available in this  
-[video tutorial](https://www.youtube.com/watch?v=e_mJbUDvP28&list=PLkiW570Y0Gr1NEas4qt9bxJRuqHf10LzX&index=6).
+A step-by-step demonstration is available in this [video tutorial](https://www.youtube.com/watch?v=e_mJbUDvP28&list=PLkiW570Y0Gr1NEas4qt9bxJRuqHf10LzX&index=6).
 
 ### Gaze
 Gaze and audio data are exported from **D-Lab**.  
-See this  
-[video tutorial](https://www.youtube.com/watch?v=VsICeG-4K3E&list=PLkiW570Y0Gr1NEas4qt9bxJRuqHf10LzX&index=4)  
-for the export workflow.
+See this [video tutorial](https://www.youtube.com/watch?v=VsICeG-4K3E&list=PLkiW570Y0Gr1NEas4qt9bxJRuqHf10LzX&index=4) for the export workflow.
 
 ### Audio
 Audio files are processed using **Audacity** to:
 - Trim recordings  
 - Mute other participants’ voices in each individual audio track  
 
-A demonstration is available in this  
-[video tutorial](https://www.youtube.com/watch?v=nyvr48YhuvU&list=PLkiW570Y0Gr1NEas4qt9bxJRuqHf10LzX&index=2).
+A demonstration is available in this [video tutorial](https://www.youtube.com/watch?v=nyvr48YhuvU&list=PLkiW570Y0Gr1NEas4qt9bxJRuqHf10LzX&index=2).
 
 ---
 
