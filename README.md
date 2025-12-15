@@ -84,6 +84,25 @@ This is performed using **[GazeBehavior](https://github.com/MCMartinLee/Multi-TP
 
 **Output Format**
 
+**Encoding**
+- `0` — looking at neither participant  
+- `1` — looking at the left participant  
+- `2` — looking at the right participant  
+
+**Example**
+0 1 0
+This indicates that Participant 2 is looking at the left participant, while Participants 1 and 3 are not looking at either interlocutor.
+
+---
+
+## Prosodic Features
+Prosodic features are extracted using **Praat**, including:
+- Fundamental frequency (pitch)  
+- Intensity (energy)  
+
+We provide a Praat script for reproducibility:  
+**[PitchAndIntensity.praat](https://github.com/MCMartinLee/Multi-TPC/blob/main/processing/PitchAndIntensity.pratt)**
+
 
 # Analysis
 1. Download the dataset and put inside the Data folder
