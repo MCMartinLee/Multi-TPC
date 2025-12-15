@@ -63,7 +63,7 @@ Workflow:
 1. Upload participant audio to YouTube  
 2. Download the generated `.srt` and `.vtt` caption files  
 3. Parse timestamps at the word or sentence level using the provided notebook:  
-   **[Captions Processing Notebook](https://github.com/MCMartinLee/Multi-TPC/blob/main/processing/Analysis.ipynb)**
+   **[Captions Processing Notebook](Processing/Captions.ipynb)**
 
 ---
 
@@ -73,7 +73,7 @@ We compute discrete gaze targets to determine whether each participant is lookin
 - the right listener, or
 - neither listener.
 
-This is performed using **[GazeBehavior](https://github.com/MCMartinLee/Multi-TPC/blob/main/processing/GazeBehavior.exe)**, which integrates gaze and motion-capture data.
+This is performed using **[GazeBehavior](Processing/GazeBehavior.exe)**, which integrates gaze and motion-capture data.
 
 **Input**
 - Capture date (e.g., `12-15-2021`)
@@ -103,13 +103,13 @@ Prosodic features are extracted using **Praat**, including:
 - Intensity (energy)  
 
 We provide a Praat script for reproducibility:  
-**[PitchAndIntensity.praat](https://github.com/MCMartinLee/Multi-TPC/blob/main/processing/PitchAndIntensity.pratt)**
+**[PitchAndIntensity.praat](Processing/PitchAndIntensity.pratt)**
 
 
 # Analysis
 1. Download the dataset and put inside the Data folder
 2. Run Jupyter Notebook of example
-* [Analysis](https://github.com/MCMartinLee/Multi-TPC/blob/main/Analysis.ipynb)
+* [Analysis](Analysis.ipynb)
 
 # Visualization
 ```
