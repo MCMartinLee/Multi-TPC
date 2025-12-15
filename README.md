@@ -45,6 +45,9 @@ A demonstration is available in this [video tutorial](https://www.youtube.com/wa
 
 ---
 
+## Gaze anamaly detection and gap interpolation
+We detect anomalies using a z-score–based method and fill temporal gaps via cubic spline interpolation using the provided [MATLAB app](processing/GazeProcessing.mlapp).
+
 ## Gaze Angle Conversion
 Pixel-based gaze targets are converted into **pitch** and **yaw** angle representations using **[Angle Convert](processing/GazeAngleConvert.ipynb)** following the formulation illustrated in the reference image:
 
