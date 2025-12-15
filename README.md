@@ -50,7 +50,7 @@ A demonstration is available in this
 ---
 
 ## Gaze Angle Conversion
-Pixel-based gaze targets are converted into **pitch** and **yaw** angle representations using **[Angle Convert]()** following the formulation illustrated in the reference image:
+Pixel-based gaze targets are converted into **pitch** and **yaw** angle representations using **[Angle Convert](processing/GazeAngleConvert.ipynb)** following the formulation illustrated in the reference image:
 
 ![convert](Figures/conversion.png)
 
