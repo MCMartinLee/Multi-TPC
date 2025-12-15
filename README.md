@@ -90,7 +90,9 @@ This is performed using **[GazeBehavior](https://github.com/MCMartinLee/Multi-TP
 - `2` — looking at the right participant  
 
 **Example**
+
 0 1 0
+
 This indicates that Participant 2 is looking at the left participant, while Participants 1 and 3 are not looking at either interlocutor.
 
 ---
