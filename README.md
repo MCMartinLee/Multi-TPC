@@ -25,48 +25,38 @@ The clap event provides a shared temporal reference across motion, gaze, and aud
 
 ## Data Pre-processing
 
-### Motion
+### ViconIQ
 Motion data are processed using **ViconIQ**, including:
 - Gap interpolation  
 - Temporal smoothing  
 
-A step-by-step demonstration is available in this [video tutorial](https://www.youtube.com/watch?v=e_mJbUDvP28&list=PLkiW570Y0Gr1NEas4qt9bxJRuqHf10LzX&index=6).
+A step-by-step demonstration is available in this [video tutorial](https://youtu.be/e_mJbUDvP28).
 
-### Gaze
+### D-Lab
 Gaze and audio data are exported from **D-Lab**.  
-See this [video tutorial](https://www.youtube.com/watch?v=VsICeG-4K3E&list=PLkiW570Y0Gr1NEas4qt9bxJRuqHf10LzX&index=4) for the export workflow.
+See this [video tutorial]()(Release soon) for the export workflow.
 
-### Audio
+### Audacity
 Audio files are processed using **Audacity** to:
 - Trim recordings  
 - Mute other participants’ voices in each individual audio track  
 
-A demonstration is available in this [video tutorial](https://www.youtube.com/watch?v=nyvr48YhuvU&list=PLkiW570Y0Gr1NEas4qt9bxJRuqHf10LzX&index=2).
+A demonstration is available in this [video tutorial](https://youtu.be/nyvr48YhuvU).
 
 ---
 
-## Gaze anamaly detection and gap interpolation
+## Data processing
+
+### Gaze alignement, anomaly detection and gap interpolation
+For gaze alignement between three participants, please follow this [video tutorial](https://www.youtube.com/watch?v=LpspvewNe6o)
 We detect anomalies using a z-score–based method and fill temporal gaps via cubic spline interpolation using the provided [MATLAB app](processing/GazeProcessing.mlapp).
 
-## Gaze Angle Conversion
+### Gaze Angle Conversion
 Pixel-based gaze targets are converted into **pitch** and **yaw** angle representations using **[Angle Convert](processing/GazeAngleConvert.ipynb)** following the formulation illustrated in the reference image:
 
 ![convert](Figures/conversion.png)
 
----
-
-## Speech-to-Text
-At the time of data collection, speech transcripts were generated using YouTube’s built-in automatic captioning system.
-
-Workflow:
-1. Upload participant audio to YouTube  
-2. Download the generated `.srt` and `.vtt` caption files  
-3. Parse timestamps at the word or sentence level using the provided notebook:  
-   **[Captions Processing Notebook](processing/Captions.ipynb)**
-
----
-
-## Gaze Target Calculation
+### Gaze Target Calculation
 We compute discrete gaze targets to determine whether each participant is looking at:
 - the left listener,
 - the right listener, or
@@ -96,7 +86,18 @@ This indicates that Participant 2 is looking at the left participant, while Part
 
 ---
 
-## Prosodic Features
+### Speech-to-Text
+At the time of data collection, speech transcripts were generated using YouTube’s built-in automatic captioning system.
+
+Workflow:
+1. Upload participant audio to YouTube  
+2. Download the generated `.srt` and `.vtt` caption files  
+3. Parse timestamps at the word or sentence level using the provided notebook:  
+   **[Captions Processing Notebook](processing/Captions.ipynb)**
+
+---
+
+### Prosodic Features
 Prosodic features are extracted using **Praat**, including:
 - Fundamental frequency (pitch)  
 - Intensity (energy)  
