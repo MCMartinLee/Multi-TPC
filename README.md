@@ -102,7 +102,7 @@ Prosodic features are extracted using **Praat**, including:
 - Intensity (energy)  
 
 We provide a Praat script for reproducibility:  
-**[PitchAndIntensity.praat](processing/PitchAndIntensity.pratt)**
+**[PitchAndIntensity.praat](processing/PitchAndIntensity.praat)**
 
 
 # Analysis
