@@ -1,12 +1,20 @@
 # Multi-TPC
 A Multimodal Dataset for Three-Party Conversations with Speech, Motion, and Gaze
 
-# Installing
+
+## Table of contents
+
+- [Installation](#Installation)
+- [Tools](#Tools)
+- [Data Capture](#Data-Capture)
+
+
+# Installation
 * python version >=3.8.0
 ```
 pip install -r requirements.txt
 ```
-## Tools
+# Tools
 
 - **ViconIQ** — Motion capture and motion data processing  
 - **[D-Lab](https://ergoneers.com/faq/latest-d-lab-version/)** — Gaze tracking and audio capture  
@@ -15,9 +23,9 @@ pip install -r requirements.txt
 
 ---
 
-## Data Capture
+# Data Capture
 ![Layout](Figures/layout.png)
-### Synchronization
+## Synchronization
 All modalities are synchronized using a physical clapboard instrumented with motion-capture markers.  
 The clap event provides a shared temporal reference across motion, gaze, and audio streams.
 
