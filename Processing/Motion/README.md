@@ -4,7 +4,7 @@ This folder contains tools for processing motion capture data exported from Vico
 
 ## Separating participants
 
-Use [csvtotxt-3p.py](csvtotxt-3p.py) (in this folder) to split a multi-person ViconIQ CSV into separate per-participant text files. The script reads the exported CSV (set the `file` variable at the top of the script) and writes `person1.txt`, `person2.txt`, and `person3.txt` with space-separated values. This makes it easier to visualize and analyze each participant's motion independently.
+Use [`csvtotxt-3p.py`](csvtotxt-3p.py) (in this folder) to split a multi-person ViconIQ CSV into separate per-participant text files. The script reads the exported CSV (set the `file` variable at the top of the script) and writes `person1.txt`, `person2.txt`, and `person3.txt` with space-separated values. This makes it easier to visualize and analyze each participant's motion independently.
 
 Below is the skeleton index image showing joint indices used by the data export:
 ![Skeleton](../../Figures/skeleton.png)
