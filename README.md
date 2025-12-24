@@ -99,8 +99,6 @@ The scripts are licensed under the [MIT license](LICENSE).
 
 In the related [C++ module](https://github.com/MCMartinLee/Conversation_Demo) repository, the software is also subject to the MIT license that is provided in the repositories.
 
-**The MIT license does not apply to the generated image dataset**, which is only available for noncommercial use. Additionally, **the MIT license does not apply to the non-code files included in the Releases**; the Releases contains some files (e.g., 3D meshes) that have a separate license.
-
 
 ## Acknowledgements
 
