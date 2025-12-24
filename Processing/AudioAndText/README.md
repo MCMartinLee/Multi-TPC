@@ -11,7 +11,7 @@ Workflow:
 1. Upload participant audio to YouTube  
 2. Download the generated `.srt` and `.vtt` caption files  
 3. Parse timestamps at the word or sentence level using the provided notebook:  
-   **[Captions Processing Notebook](processing/Captions.ipynb)**
+   **[Captions Processing Notebook](Captions.ipynb)**
 
 ---
 
@@ -21,5 +21,5 @@ Prosodic features are extracted using **Praat**, including:
 - Intensity (energy)  
 
 We provide a Praat script for reproducibility:  
-**[PitchAndIntensity.praat](processing/PitchAndIntensity.praat)**
+**[PitchAndIntensity.praat](PitchAndIntensity.praat)**
 

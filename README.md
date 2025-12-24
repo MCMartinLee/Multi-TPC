@@ -70,13 +70,13 @@ A demonstration is available in this [video tutorial](https://youtu.be/nyvr48Yhu
 ## Data processing
 
 ### Motion
-For detail motion processing, please refer to this [document](Processing\Motion\README.md)
+For detail motion processing, please refer to this [document](Processing/Motion/README.md)
 
 ### Gaze
-For detail gaze processing, please refer to this [document](Processing\Gaze\README.md)
+For detail gaze processing, please refer to this [document](Processing/Gaze/README.md)
 
 ### Audio and Text
-For detail audio processing, please refer to this [document](Processing\AudioAndText\README.md)
+For detail audio processing, please refer to this [document](Processing/AudioAndText/README.md)
 
 
 ## Analysis
