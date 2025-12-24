@@ -1,6 +1,7 @@
 # Multi-TPC
 A Multimodal Dataset for Three-Party Conversations with Speech, Motion, and Gaze
 
+[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17935560.svg)](https://doi.org/10.5281/zenodo.17935560)
 
 ## Table of contents
 
