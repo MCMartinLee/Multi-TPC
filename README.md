@@ -7,14 +7,30 @@ A Multimodal Dataset for Three-Party Conversations with Speech, Motion, and Gaze
 - [Installation](#Installation)
 - [Tools](#Tools)
 - [Data Capture](#Data-Capture)
+- [Data Pre-processing](#Data-Pre-processing)
+  * [ViconIQ](#ViconIQ)
+  * [D-Lab](#D-Lab)
+  * [Audacity](#Audacity)
+- [Data Processing](#Data-Processing)
+  * [Gaze alignement, anomaly detection and gap interpolation](#Gaze-alignement,-anomaly-detection-and-gap-interpolation)
+  * [Gaze Angle Conversion](#Gaze-Angle-Conversion)
+  * [Gaze Target Calculation](#Gaze-Target-Calculation)
+  * [Speech-to-Text](#Speech-to-Text)
+  * [Prosodic Features](#Prosodic-Features)
+- [Analysis](#Analysis)
+- [Visualization](#Visualization)
+- [Authors](#authors)
+- [License and copyright](#license-and-copyright)
+- [Acknowledgements](#acknowledgements)
+<!-- toc -->
 
 
-# Installation
+## Installation
 * python version >=3.8.0
 ```
 pip install -r requirements.txt
 ```
-# Tools
+## Tools
 
 - **ViconIQ** — Motion capture and motion data processing  
 - **[D-Lab](https://ergoneers.com/faq/latest-d-lab-version/)** — Gaze tracking and audio capture  
@@ -23,9 +39,9 @@ pip install -r requirements.txt
 
 ---
 
-# Data Capture
+## Data Capture
 ![Layout](Figures/layout.png)
-## Synchronization
+### Synchronization
 All modalities are synchronized using a physical clapboard instrumented with motion-capture markers.  
 The clap event provides a shared temporal reference across motion, gaze, and audio streams.
 
@@ -114,12 +130,33 @@ We provide a Praat script for reproducibility:
 **[PitchAndIntensity.praat](processing/PitchAndIntensity.praat)**
 
 
-# Analysis
+## Analysis
 1. Download the dataset and put inside the Data folder
 2. Run Jupyter Notebook of example
 * [Analysis](Analysis.ipynb)
 
-# Visualization
+## Visualization
 ```
 git clone https://github.com/MCMartinLee/Conversation_Demo
 ```
+
+## Author(s)
+
+Meng-Chen Lee, mlee45 (at) uh.edu
+
+## License and copyright
+
+The scripts are licensed under the [MIT license](LICENSE).
+
+In the related [C++ module](https://github.com/MCMartinLee/Conversation_Demo) repository, the software is also subject to the MIT license that is provided in the repositories.
+
+**The MIT license does not apply to the generated image dataset**, which is only available for noncommercial use. Additionally, **the MIT license does not apply to the non-code files included in the Releases**; the Releases contains some files (e.g., 3D meshes) that have a separate license.
+
+
+## Acknowledgements
+
+This work was supported in part by NSF IIS-2005430. We would like to thank Mai Trinh to help with data capture in this work. We also want to thank the volunteers who participated in the data collection experiments.
+
+## Publication and citation
+
+If you use this work, please cite the data paper available [here]().
