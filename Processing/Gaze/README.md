@@ -3,7 +3,7 @@ For gaze alignement between three participants, please follow this [video tutori
 We detect anomalies using a z-score–based method and fill temporal gaps via cubic spline interpolation using the provided [MATLAB app](GazeProcessing.mlapp).
 
 ### Gaze Angle Conversion
-Pixel-based gaze targets are converted into **pitch** and **yaw** angle representations using **[Angle Convert](processing/GazeAngleConvert.ipynb)** following the formulation illustrated in the reference image:
+Pixel-based gaze targets are converted into **pitch** and **yaw** angle representations using **[Angle Convert](GazeAngleConvert.ipynb)** following the formulation illustrated in the reference image:
 
 ![convert](../../Figures/conversion.png)
 
