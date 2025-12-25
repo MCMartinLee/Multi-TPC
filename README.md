@@ -94,6 +94,8 @@ git clone https://github.com/MCMartinLee/Conversation_Demo
 
 Meng-Chen Lee, mlee45 (at) uh.edu
 
+Zhigang Deng
+
 ## License and copyright
 
 The scripts are licensed under the [MIT license](LICENSE).
